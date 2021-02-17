@@ -1,12 +1,10 @@
-
-for( let j=2; j <=20; j++){
-    var prime = true;
-    for(var i=2;i<j;i++){
-        if(j%i==0){
-            prime = false;
-        }
+nextPrime:
+for (var i = 2; i <= 20; i++)
+{
+    for (var j=2; j<i; j++)
+    {
+        if (i%j==0)
+        continue nextPrime;
     }
-    if(prime){
-        alert(j);
-    }
+    alert (i);
 }

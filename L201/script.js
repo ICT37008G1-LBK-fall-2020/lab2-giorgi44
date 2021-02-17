@@ -1,10 +1,3 @@
-var number = prompt("insert number", 0);
-	if(number>0){
-		alert ("1");
-	}
-	else if(number==0)
-{		alert ("0");
-	}
-	else{
-		alert ("-1");
-	}
+var ricxvi = prompt ('ჩაწერეთ რიცხვი', '');
+   if (ricxvi>0) {alert ('1');} else if (ricxvi<0) {alert ('-1');}
+   if (ricxvi==0) alert ('0');
